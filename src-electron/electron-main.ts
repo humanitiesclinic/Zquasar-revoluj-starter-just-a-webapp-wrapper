@@ -42,7 +42,7 @@ async function createWindow() {
   if (process.env.DEV) {
     await mainWindow.loadURL(process.env.APP_URL);
   } else {
-    await mainWindow.loadFile('index.html');
+    await mainWindow.loadURL('https://everythinginperspective.vercel.app/');
   }
 
   if (process.env.DEBUGGING) {
