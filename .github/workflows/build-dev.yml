@@ -8,4 +8,8 @@ on:
 permissions:
   contents: read
 
-jobs: {}
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "No PWA builds in dev"
